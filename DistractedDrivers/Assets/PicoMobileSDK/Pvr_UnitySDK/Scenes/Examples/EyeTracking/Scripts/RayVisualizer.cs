@@ -8,7 +8,8 @@ using UnityEngine;
 public class RayVisualizer : MonoBehaviour {
     private LineRenderer _line;
     private Pvr_UnitySDKAPI.EyeTrackingGazeRay gazeRay;
-    
+    public Camera thisCamera;
+
     void Start ()
     {
         _line = gameObject.GetComponent<LineRenderer>();

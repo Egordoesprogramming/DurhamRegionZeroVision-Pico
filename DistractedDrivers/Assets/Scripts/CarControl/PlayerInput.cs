@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Pvr_UnitySDKAPI;
 
 public class PlayerInput : MonoBehaviour
 {
@@ -95,7 +96,7 @@ public class PlayerInput : MonoBehaviour
             turningRight = false;
         }*/
 
-        if (Input.GetKeyDown(KeyCode.W))
+        /*if (Input.GetKeyDown(KeyCode.W))
         {
             accelerating = true;
         }
@@ -129,42 +130,42 @@ public class PlayerInput : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.D))
         {
             turningRight = false;
-        }
-        /*if (Input.GetKeyDown(Pvr_KeyCode.Y))
+        }*/
+        if (Controller.UPvr_GetKeyDown(1, Pvr_KeyCode.B))
         {
             accelerating = true;
         }
-        if (Input.GetKeyUp(Pvr_KeyCode.Y))
+        if (Controller.UPvr_GetKeyUp(1, Pvr_KeyCode.B))
         {
             accelerating = false;
         }
 
-        if (Input.GetKeyDown(Pvr_KeyCode.X))
+        if (Controller.UPvr_GetKeyDown(1, Pvr_KeyCode.A))
         {
             breaking = true;
         }
-        if (Input.GetKeyUp(Pvr_KeyCode.X))
+        if (Controller.UPvr_GetKeyUp(1, Pvr_KeyCode.A))
         {
             breaking = false;
         }
 
-        if (Input.GetKeyDown(Pvr_KeyCode.B))
+        if (Controller.UPvr_GetKeyDown(0, Pvr_KeyCode.X))
         {
             turningLeft = true;
         }
-        if (Input.GetKeyUp(Pvr_KeyCode.B))
+        if (Controller.UPvr_GetKeyUp(0, Pvr_KeyCode.X))
         {
             turningLeft = false;
         }
 
-        if (Input.GetKeyDown(Pvr_KeyCode.A))
+        if (Controller.UPvr_GetKeyDown(0, Pvr_KeyCode.Y))
         {
             turningRight = true;
         }
-        if (Input.GetKeyUp(Pvr_KeyCode.A))
+        if (Controller.UPvr_GetKeyUp(0, Pvr_KeyCode.Y))
         {
             turningRight = false;
-        }*/
+        }
     }
 
 }

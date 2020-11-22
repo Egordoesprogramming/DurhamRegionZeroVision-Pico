@@ -66,7 +66,7 @@
     <meta-data android:name="bottommargin" android:value="100" />
     <meta-data android:name="marqueecount" android:value="10" />
     <meta-data android:name="loadingalign" android:value="left" />
-    <meta-data android:name="com.pvr.hmd.trackingmode" android:value="6dof" />
+    <meta-data android:name="com.pvr.hmd.trackingmode" android:value="3dof" />
     <meta-data android:name="isPUI" android:value="0" />
     <meta-data android:name="enable_eyetracking" android:value="0" />
     <meta-data android:name="enable_cpt" android:value="0" />
