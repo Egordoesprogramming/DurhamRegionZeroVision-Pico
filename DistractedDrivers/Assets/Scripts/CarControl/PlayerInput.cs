@@ -96,7 +96,7 @@ public class PlayerInput : MonoBehaviour
             turningRight = false;
         }*/
 
-        /*if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             accelerating = true;
         }
@@ -130,42 +130,42 @@ public class PlayerInput : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.D))
         {
             turningRight = false;
-        }*/
-        if (Controller.UPvr_GetKeyDown(1, Pvr_KeyCode.B))
-        {
-            accelerating = true;
         }
-        if (Controller.UPvr_GetKeyUp(1, Pvr_KeyCode.B))
-        {
-            accelerating = false;
-        }
+        //if (Controller.UPvr_GetKeyDown(1, Pvr_KeyCode.B))
+        //{
+        //    accelerating = true;
+        //}
+        //if (Controller.UPvr_GetKeyUp(1, Pvr_KeyCode.B))
+        //{
+        //    accelerating = false;
+        //}
 
-        if (Controller.UPvr_GetKeyDown(1, Pvr_KeyCode.A))
-        {
-            breaking = true;
-        }
-        if (Controller.UPvr_GetKeyUp(1, Pvr_KeyCode.A))
-        {
-            breaking = false;
-        }
+        //if (Controller.UPvr_GetKeyDown(1, Pvr_KeyCode.A))
+        //{
+        //    breaking = true;
+        //}
+        //if (Controller.UPvr_GetKeyUp(1, Pvr_KeyCode.A))
+        //{
+        //    breaking = false;
+        //}
 
-        if (Controller.UPvr_GetKeyDown(0, Pvr_KeyCode.X))
-        {
-            turningLeft = true;
-        }
-        if (Controller.UPvr_GetKeyUp(0, Pvr_KeyCode.X))
-        {
-            turningLeft = false;
-        }
+        //if (Controller.UPvr_GetKeyDown(0, Pvr_KeyCode.X))
+        //{
+        //    turningLeft = true;
+        //}
+        //if (Controller.UPvr_GetKeyUp(0, Pvr_KeyCode.X))
+        //{
+        //    turningLeft = false;
+        //}
 
-        if (Controller.UPvr_GetKeyDown(0, Pvr_KeyCode.Y))
-        {
-            turningRight = true;
-        }
-        if (Controller.UPvr_GetKeyUp(0, Pvr_KeyCode.Y))
-        {
-            turningRight = false;
-        }
+        //if (Controller.UPvr_GetKeyDown(0, Pvr_KeyCode.Y))
+        //{
+        //    turningRight = true;
+        //}
+        //if (Controller.UPvr_GetKeyUp(0, Pvr_KeyCode.Y))
+        //{
+        //    turningRight = false;
+        //}
     }
 
 }
