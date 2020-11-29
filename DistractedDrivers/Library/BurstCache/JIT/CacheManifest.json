@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2020-11-26T05:26:03.8709689Z"
+      "LastWriteTime": "2020-11-26T18:50:26.0521122Z"
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -19,7 +19,7 @@
     },
     {
       "FullName": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2020-11-26T05:26:07.6775488Z"
+      "LastWriteTime": "2020-11-26T19:16:02.2084844Z"
     },
     {
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -27,14 +27,14 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2020-11-26T05:26:05.4642508Z"
+      "LastWriteTime": "2020-11-26T18:50:26.0610572Z"
     }
   ],
   "Functions": [
     {
       "FullName": "System.Int32 Unity.Burst.Intrinsics.X86::DoGetCSRTrampoline()",
       "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "9fce4ce370f09ad5e0313eb8e6627f52",
+      "ModuleHash": "2251d4ec2131bf72df6103a8db66897e",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         0,
@@ -45,7 +45,7 @@
     {
       "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "77fb1e2e5fd89981480c718f564d5598",
+      "ModuleHash": "06519f6babd030b56ea68b2c5fee9bbf",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         0,
@@ -56,7 +56,7 @@
     {
       "FullName": "System.Void UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1<TurnTheGameOn.SimpleTrafficSystem.AITrafficCarJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "d3fa1b8c3965cfa910103bcb3891f193",
+      "ModuleHash": "ea140be4be0876ba173c6a85b8d1868f",
       "LinkName": "EA6430B123093197",
       "AssemblyDependencyIndices": [
         3,
@@ -70,7 +70,7 @@
     {
       "FullName": "System.Void UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1<TurnTheGameOn.SimpleTrafficSystem.AITrafficCarPositionJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "24f95ceb96af4e9a73980d7673b451cb",
+      "ModuleHash": "477532a8dce1fd484f772b70917a75a5",
       "LinkName": "27D1F3079FEC804C",
       "AssemblyDependencyIndices": [
         3,
@@ -82,7 +82,7 @@
     {
       "FullName": "System.Void UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1<TurnTheGameOn.SimpleTrafficSystem.AITrafficCarWheelJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "1f1028bfd126f9e6a659a252f8681fab",
+      "ModuleHash": "b3f4f78877c60d06d410f280debb5480",
       "LinkName": "E43D98F83E3AF2E1",
       "AssemblyDependencyIndices": [
         3,
